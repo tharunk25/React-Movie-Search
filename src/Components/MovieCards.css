@@ -1,0 +1,109 @@
+.movie-list {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 25px;
+  justify-items: center;
+  margin-top: 3rem;
+  flex: 1 0 auto;
+}
+
+.movie-card {
+  width: 200px;
+  background-color: var(--color-card-light);
+  border-radius: 16px;
+  overflow: hidden;
+  cursor: pointer;
+  text-align: center;
+  box-shadow: var(--shadow-light);
+  transition: transform var(--transition-speed) ease,
+              box-shadow var(--transition-speed) ease,
+              background var(--transition-speed) ease;
+}
+.app.dark .movie-card {
+  background-color: var(--color-card-dark);
+  box-shadow: var(--shadow-dark);
+}
+.movie-card img {
+  width: 200px;
+  height: 300px;
+  object-fit: cover;
+  border-bottom: 2px solid var(--color-accent);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+.movie-card:hover img {
+  transform: scale(1.05);
+}
+.movie-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0px 15px 40px var(--color-card-dark);
+}
+.movie-card h3 {
+  margin: 12px 0 5px;
+  font-size: 1.15rem;
+  font-weight: 600;
+}
+.movie-card p {
+  margin-bottom: 12px;
+  font-size: 0.9rem;
+  color: #888;
+}
+.app.dark .movie-card p {
+  color: #ccc;
+}
+.show-more-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: auto;
+  padding: 0.8rem;
+  margin-top: 2rem;
+  border-radius: 10px;
+  background-color: transparent;
+  color: red;
+  font-weight: bold;
+  transition: transform 0.3s ease;
+  cursor: pointer;
+  border: 2px solid red;
+}
+.show-more-btn:hover {
+  color: white;
+  background-color: red;
+  transform: scale(1.05);
+}
+
+@media (max-width: 480px) {
+  .movie-list {
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+    margin-top: 3rem;
+    padding: 0 6px;
+  }
+  .movie-card {
+    width: 180px;
+    border-radius: 12px;
+    margin-bottom: 0.5rem;
+    padding: 0;
+    min-width: 0;
+  }
+  .movie-card img {
+    width: 180px;
+    height: 200px;
+    border-bottom-width: 1.5px;
+  }
+  .movie-card h3 {
+    font-size: 1rem;
+    margin: 8px 0 0;
+  }
+  .movie-card p {
+    font-size: 0.8rem;
+    margin-bottom: 8px;
+  }
+  .show-more-btn {
+    width: 40%;
+    min-width: 120px;
+    font-size: 1rem;
+    padding: 0.7rem;
+    margin-top: 1.2rem;
+  }
+}
