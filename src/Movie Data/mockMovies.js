@@ -8,8 +8,7 @@ const mockMovies = [
     rating: "8.8",
     overview:
       "A thief who steals corporate secrets through dream-sharing technology is given a chance at redemption.",
-    poster:
-      "https://imgs.search.brave.com/_FFMlAvhN2uRochzC-JE751HZlkBjj_hW0k1a3KI-SA/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXZlLmNv/bS93cC93cDE0ODMz/MDg1LndlYnA",
+    poster: "https://image.tmdb.org/t/p/w500/9gk7adHYeDvHkCSEqAvQNLV5Uge.jpg",
   },
   {
     id: 2,
@@ -18,8 +17,7 @@ const mockMovies = [
     rating: "8.6",
     overview:
       "A group of explorers travel through a wormhole in space in an attempt to ensure humanity's survival.",
-    poster:
-      "https://imgs.search.brave.com/jvn-Vkh6EurBggBBnCv9wUOKV0mIl9CcVNKd9WKlwuc/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJjYXQuY29t/L3cvZnVsbC82LzUv/MS8zMDYxNDQtMjE2/MHgzODQwLXBob25l/LTRrLWludGVyc3Rl/bGxhci1iYWNrZ3Jv/dW5kLWltYWdlLmpw/Zw",
+    poster: "https://image.tmdb.org/t/p/w500/gEU2QniE6E77NI6lCU6MxlNBvIx.jpg",
   },
   {
     id: 3,
@@ -199,8 +197,7 @@ const mockMovies = [
     rating: "8.0",
     overview:
       "A former special forces operative turned mercenary is subjected to an experiment that leaves him with accelerated healing powers.",
-    poster:
-      "https://imgs.search.brave.com/SGnQYZNiEBU5pQh-MwCkm8bTMMd3aPa-mm0N0dPTsVk/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly90NC5m/dGNkbi5uZXQvanBn/LzA2LzcwLzIzLzEx/LzM2MF9GXzY3MDIz/MTExNl9uZDdCSmtB/bjZVY2pGWHNuVFR6/b0U4VXpRYkVwZU9H/SC5qcGc",
+    poster: "https://m.media-amazon.com/images/M/MV5BYzE5MjY1ZDgtMTkyNC00MTMyLThhMjAtZGI5OTE1NzFlZGJjXkEyXkFqcGdeQXVyNjU0OTQ0OTY@._V1_SX300.jpg",
   },
   {
     id: 23,
@@ -209,8 +206,7 @@ const mockMovies = [
     rating: "8.1",
     overview:
       "In a future where mutants are nearly extinct, Wolverine and ailing Professor X protect a young mutant girl from dark forces.",
-    poster:
-      "https://imgs.search.brave.com/oWX2Rme-V-kgk7AnekmKKqQoQwAA5aXAqEGqOSVl5SI/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1Qk0ySmpPRGRr/TUdNdE5tWTJZUzAw/T0dNMkxUaGlZMll0/WkdZeU56RTROemMy/T0RBMFhrRXlYa0Zx/Y0djQC5qcGc",
+    poster: "https://m.media-amazon.com/images/M/MV5BYzc5MTU4N2EtYTkyMi00NjdhLTg3NWEtMTY4OTEyMzJhZTAzXkEyXkFqcGdeQXVyNjc1NTYyMjg@._V1_SX300.jpg",
   },
   {
     id: 24,
@@ -255,8 +251,7 @@ const mockMovies = [
     rating: "7.1",
     overview:
       "Scott Lang balances being both a superhero and a father while teaming up with Hope Van Dyne to uncover secrets from the past.",
-    poster:
-      "https://imgs.search.brave.com/_Rf6WloFTdISXhsaHaMaCDDsepePawjUQpia5n9CG2Q/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9sdW1p/ZXJlLWEuYWthbWFp/aGQubmV0L3YxL2lt/YWdlcy9pbWFnZV9h/ZTMwZTMwNy5qcGVn",
+    poster: "https://image.tmdb.org/t/p/original/rv1AWImgx386ULjcf62VYaW8zSt.jpg",
   },
   {
     id: 29,
@@ -283,8 +278,7 @@ const mockMovies = [
     rating: "7.8",
     overview:
       "Political interference causes a rift between the Avengers, dividing them into opposing factions.",
-    poster:
-      "https://imgs.search.brave.com/waxO0Gn0QxTjjmGThjfjf28XJhdCrTJOxXD-CrOY_wY/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9jZG4u/bWFydmVsLmNvbS9j/b250ZW50LzJ4LzAw/M2NhcF9vbnNfaW5s/XzA4LmpwZw",
+    poster: "https://image.tmdb.org/t/p/w500/rAGiXaUfPzY7CDEyNKUofk3Kw2e.jpg",
   },
   {
     id: 32,
@@ -293,8 +287,7 @@ const mockMovies = [
     rating: "6.9",
     overview:
       "Carol Danvers becomes one of the universe's most powerful heroes as Earth is caught in the middle of a galactic war.",
-    poster:
-      "https://imgs.search.brave.com/anMG8jJPX5ZBuUCfsP4QYVgefMgJwXolbgRJcDVCJq8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9oNy5h/bGFteS5jb20vY29t/cC9UMDJDNzIvY2Fw/dGFpbi1tYXJ2ZWwt/MjAxOS1kaXJlY3Rl/ZC1ieS1hbm5hLWJv/ZGVuLWFuZC1yeWFu/LWZsZWNrLWFuZC1z/dGFycmluZy1icmll/LWxhcnNvbi1nZW1t/YS1jaGFuLWp1ZGUt/bGF3LWFuZC1zYW11/ZWwtbC1qYWNrc29u/LXVzYWYtcGlsb3Qt/Y2Fyb2wtZGFudmVy/cy1iZWNvbWVzLW9u/ZS1vZi10aGUtbW9z/dC1wb3dlcmZ1bC1z/dXBlcmhlcm9zLWlu/LXRoZS11bml2ZXJz/ZS1UMDJDNzIuanBn",
+    poster: "https://m.media-amazon.com/images/M/MV5BMTE0YWFmOTMtYTU2ZS00ZTIxLWE3OTEtYTNiYzBkZjViZThiXkEyXkFqcGdeQXVyODMzMzQ4OTI@._V1_SX300.jpg",
   },
   {
     id: 33,
@@ -321,8 +314,7 @@ const mockMovies = [
     rating: "8.2",
     overview:
       "The Guardians must protect the universe while dealing with a powerful new threat and past secrets.",
-    poster:
-      "https://imgs.search.brave.com/D13UIDh6M69HKm-g_NLBjl7OzcTfbyLtSCvJsU0zfrQ/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9tLm1l/ZGlhLWFtYXpvbi5j/b20vaW1hZ2VzL00v/TVY1QlpEQTNNemRs/WVRRdE1UVXhOaTAw/WmpKbUxUa3lPVFl0/TkRrelltSXpZVEpr/WmpNelhrRXlYa0Zx/Y0djQC5qcGc",
+    poster: "https://image.tmdb.org/t/p/w500/r2J02Z2OpNTctfOSN1Ydgii51I3.jpg",
   },
   {
     id: 36,
@@ -331,8 +323,7 @@ const mockMovies = [
     rating: "6.8",
     overview:
       "The immortal Eternals emerge from the shadows to protect humanity from their ancient enemies, the Deviants.",
-    poster:
-      "https://imgs.search.brave.com/ux3dLPsS3obzfbkAD-UfKgFoh3il3p1CGnpkxm42yno/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvZXRl/cm5hbHMtbW92aWUt/MTQ0MC14LTI5NjAt/NjFpazlzbzd3ajZx/MGt6cS5qcGc",
+    poster: "https://m.media-amazon.com/images/M/MV5BMTExZmVjY2ItYTAzYi00MDdlLWFlOWItNTJhMDRjMzQ5ZGY0XkEyXkFqcGdeQXVyODIyOTEyMzY@._V1_SX300.jpg",
   },
   {
     id: 37,
@@ -368,9 +359,8 @@ const mockMovies = [
     rating: "7.0",
     overview:
       "Tony Stark struggles with his health, new enemies, and the legacy of his father while being Iron Man.",
-    poster:
-      "https://imgs.search.brave.com/TNGOrf0Vpc-JmxZDzrU9ZsoVfwI-acel0iDe_QLs8m8/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly93YWxs/cGFwZXJzLmNvbS9p/bWFnZXMvaGQvaXJv/bi1tYW4tNGstaXBo/b25lLTNkLWFydC1t/azRyYnltOXJnaWdi/NW1jLmpwZw",
-  },
+    poster: "https://image.tmdb.org/t/p/w500/d8duYyyC9J5T825Hg7grmaabfxQ.jpg",
+  }
 ];
 
 export default mockMovies;
