@@ -1,5 +1,5 @@
 Live Demo: https://tharunk25.github.io/React-Movie-Search/
-📂 GitHub Repo: https://github.com/your-username/React-Movie-Search
+📂 GitHub Repo: https://github.com/tharunk25/React-Movie-Search
 
 # MovieVerse 🎬
 MovieVerse is a React-based movie browsing application that allows users to explore movies, view details, and manage a wishlist.
