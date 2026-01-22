@@ -1,3 +1,4 @@
+Live Demo: https://tharunk25.github.io/React-Movie-Search/
 # React + Vite
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
